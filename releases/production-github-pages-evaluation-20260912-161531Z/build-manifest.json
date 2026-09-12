@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "environment": "production",
+  "version": "production-github-pages-evaluation-20260912-161531Z",
+  "unityVersion": "6000.6.0f1",
+  "compression": "brotli",
+  "hashedFilenames": true,
+  "buildReportBytes": 35104012,
+  "decompressionFallback": true,
+  "hostingTarget": "github-pages",
+  "hostPerFileLimitBytes": 104857600,
+  "artifacts": [
+    {
+      "path": "Build/00f5757016888bdba0e6bccab0ea3a6a.data.unityweb",
+      "bytes": 25798920
+    },
+    {
+      "path": "Build/34fd9522128a6464fd22ed883b8cd7ea.wasm.unityweb",
+      "bytes": 9102477
+    },
+    {
+      "path": "Build/e9f8ee1807d2f0003d5450af4bb03daf.loader.js",
+      "bytes": 118567
+    },
+    {
+      "path": "Build/0e85f931ec60043cf94af8c4502e0db4.framework.js.unityweb",
+      "bytes": 76815
+    },
+    {
+      "path": "index.html",
+      "bytes": 5448
+    },
+    {
+      "path": "StreamingAssets/UnityServicesProjectConfiguration.json",
+      "bytes": 2353
+    },
+    {
+      "path": "version.json",
+      "bytes": 113
+    },
+    {
+      "path": ".nojekyll",
+      "bytes": 0
+    }
+  ],
+  "deploymentTarget": "github-pages-public-review",
+  "sourceCommit": "5282ea0832da98a709798e9dc6acf89d4f2ce8a9",
+  "sourceWorkspaceState": "uncommitted-m8-review",
+  "publishedAtUtc": "2026-09-12T16:15:49Z",
+  "hostTotalLimitBytes": 1073741824
+}
