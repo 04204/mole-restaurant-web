@@ -1,9 +1,9 @@
 {
   "environment": "development",
-  "version": "milestone-9c-development-20260920-005408Z",
-  "releaseId": "milestone-9c-development-20260920-005408Z",
+  "version": "shop-batch-development-20260920-110108Z",
+  "releaseId": "shop-batch-development-20260920-110108Z",
   "unity": "6000.6.0f1",
-  "path": "development/releases/milestone-9c-development-20260920-005408Z/",
+  "path": "development/releases/shop-batch-development-20260920-110108Z/",
   "review": true,
   "indexed": false
 }
