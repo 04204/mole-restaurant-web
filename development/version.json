@@ -1,9 +1,9 @@
 {
   "environment": "development",
-  "version": "milestone-9i-development-20260919-190105Z",
-  "releaseId": "milestone-9i-development-20260919-190105Z",
+  "version": "milestone-9c-development-20260920-005408Z",
+  "releaseId": "milestone-9c-development-20260920-005408Z",
   "unity": "6000.6.0f1",
-  "path": "development/releases/milestone-9i-development-20260919-190105Z/",
+  "path": "development/releases/milestone-9c-development-20260920-005408Z/",
   "review": true,
   "indexed": false
 }
