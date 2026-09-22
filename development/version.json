@@ -1,9 +1,9 @@
 {
   "environment": "development",
-  "version": "shop-batch-development-20260920-110108Z",
-  "releaseId": "shop-batch-development-20260920-110108Z",
+  "version": "milestone-9h-development-20260922-051837Z",
+  "releaseId": "milestone-9h-development-20260922-051837Z-closed-app-offline-v12",
   "unity": "6000.6.0f1",
-  "path": "development/releases/shop-batch-development-20260920-110108Z/",
+  "path": "development/releases/milestone-9h-development-20260922-051837Z-closed-app-offline-v12/",
   "review": true,
   "indexed": false
 }
