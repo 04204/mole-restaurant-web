@@ -1,0 +1,9 @@
+{
+  "environment": "development",
+  "version": "milestone-9h-development-20260923-050752Z",
+  "releaseId": "milestone-9h-development-20260923-050752Z-receipt-order-session-fix-v12",
+  "unity": "6000.6.0f1",
+  "sourceCommit": "24ecc9fc10cd6c81079dd4424fc0b8c8378f5338",
+  "publishedAtUtc": "2026-09-23T05:08:30Z",
+  "indexed": false
+}
