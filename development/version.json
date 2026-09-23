@@ -1,9 +1,9 @@
 {
   "environment": "development",
-  "version": "milestone-9h-development-20260923-033840Z",
-  "releaseId": "milestone-9h-development-20260923-033840Z-session-lifecycle-fix-v12",
+  "version": "milestone-9h-development-20260923-041010Z",
+  "releaseId": "milestone-9h-development-20260923-041010Z-exact-watermark-session-fix-v12",
   "unity": "6000.6.0f1",
-  "path": "development/releases/milestone-9h-development-20260923-033840Z-session-lifecycle-fix-v12/",
+  "path": "development/releases/milestone-9h-development-20260923-041010Z-exact-watermark-session-fix-v12/",
   "review": true,
   "indexed": false
 }
