@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "environment": "development",
+  "version": "milestone-9h-development-20260923-014157Z",
+  "unityVersion": "6000.6.0f1",
+  "compression": "brotli",
+  "hashedFilenames": true,
+  "buildReportBytes": 35180374,
+  "decompressionFallback": true,
+  "hostingTarget": "github-pages",
+  "hostPerFileLimitBytes": 104857600,
+  "artifacts": [
+    {
+      "path": "Build/16f6985dad3c79f75e6c89e5c56f581e.data.unityweb",
+      "bytes": 25870301
+    },
+    {
+      "path": "Build/b87f4fe8ea9ffea48e2edd5910e66125.wasm.unityweb",
+      "bytes": 9107010
+    },
+    {
+      "path": "Build/f5817e59ff39c448bb9fbb2092345ce5.loader.js",
+      "bytes": 118567
+    },
+    {
+      "path": "Build/85a6af53f7517e50d756b312fa141c31.framework.js.unityweb",
+      "bytes": 77208
+    },
+    {
+      "path": "index.html",
+      "bytes": 5538
+    },
+    {
+      "path": "StreamingAssets/UnityServicesProjectConfiguration.json",
+      "bytes": 2353
+    },
+    {
+      "path": "version.json",
+      "bytes": 104
+    },
+    {
+      "path": ".nojekyll",
+      "bytes": 0
+    }
+  ],
+  "deploymentTarget": "github-pages-development-review",
+  "releaseId": "milestone-9h-development-20260923-014157Z-resume-fix-v12",
+  "sourceCommit": "24ecc9fc10cd6c81079dd4424fc0b8c8378f5338",
+  "sourceWorkspaceState": "uncommitted-m9h-review",
+  "publishedAtUtc": "2026-09-23T01:42:49Z",
+  "hostTotalLimitBytes": 1073741824
+}
