@@ -1,9 +1,9 @@
 {
   "environment": "development",
-  "version": "milestone-9h-development-20260923-014157Z",
-  "releaseId": "milestone-9h-development-20260923-014157Z-resume-fix-v12",
+  "version": "milestone-9h-development-20260923-022709Z",
+  "releaseId": "milestone-9h-development-20260923-022709Z-session-trace-v12",
   "unity": "6000.6.0f1",
-  "path": "development/releases/milestone-9h-development-20260923-014157Z-resume-fix-v12/",
+  "path": "development/releases/milestone-9h-development-20260923-022709Z-session-trace-v12/",
   "review": true,
   "indexed": false
 }
