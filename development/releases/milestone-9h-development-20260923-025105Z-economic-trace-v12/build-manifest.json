@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "environment": "development",
+  "version": "milestone-9h-development-20260923-025105Z",
+  "unityVersion": "6000.6.0f1",
+  "compression": "brotli",
+  "hashedFilenames": true,
+  "buildReportBytes": 35185491,
+  "decompressionFallback": true,
+  "hostingTarget": "github-pages",
+  "hostPerFileLimitBytes": 104857600,
+  "artifacts": [
+    {
+      "path": "Build/ee7a55b488e8eb3132e17901a36677dc.data.unityweb",
+      "bytes": 25861056
+    },
+    {
+      "path": "Build/63c2ace20200ae5227c2ee5149eadc78.wasm.unityweb",
+      "bytes": 9121372
+    },
+    {
+      "path": "Build/07b490a8ab38237f8e0117b79c75fc54.loader.js",
+      "bytes": 118567
+    },
+    {
+      "path": "Build/85a6af53f7517e50d756b312fa141c31.framework.js.unityweb",
+      "bytes": 77208
+    },
+    {
+      "path": "index.html",
+      "bytes": 5554
+    },
+    {
+      "path": "StreamingAssets/UnityServicesProjectConfiguration.json",
+      "bytes": 2353
+    },
+    {
+      "path": "version.json",
+      "bytes": 104
+    },
+    {
+      "path": ".nojekyll",
+      "bytes": 0
+    }
+  ],
+  "deploymentTarget": "github-pages-development-review",
+  "releaseId": "milestone-9h-development-20260923-025105Z-economic-trace-v12",
+  "sourceCommit": "24ecc9fc10cd6c81079dd4424fc0b8c8378f5338",
+  "sourceWorkspaceState": "uncommitted-m9h-review",
+  "publishedAtUtc": "2026-09-23T02:51:42Z",
+  "hostTotalLimitBytes": 1073741824
+}
