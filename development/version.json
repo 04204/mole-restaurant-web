@@ -1,9 +1,9 @@
 {
   "environment": "development",
-  "version": "milestone-9h-development-20260923-050752Z",
-  "releaseId": "milestone-9h-development-20260923-050752Z-receipt-order-session-fix-v12",
+  "version": "farming-development-20260924-015424Z",
+  "releaseId": "farming-development-20260924-015424Z",
   "unity": "6000.6.0f1",
-  "path": "development/releases/milestone-9h-development-20260923-050752Z-receipt-order-session-fix-v12/",
+  "path": "development/releases/farming-development-20260924-015424Z/",
   "review": true,
   "indexed": false
 }

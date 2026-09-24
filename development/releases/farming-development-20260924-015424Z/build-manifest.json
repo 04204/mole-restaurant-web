@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "environment": "development",
+  "version": "farming-development-20260924-015424Z",
+  "unityVersion": "6000.6.0f1",
+  "compression": "brotli",
+  "hashedFilenames": true,
+  "buildReportBytes": 35200519,
+  "decompressionFallback": true,
+  "hostingTarget": "github-pages",
+  "hostPerFileLimitBytes": 104857600,
+  "artifacts": [
+    {
+      "path": "Build/9ae81dd30e201ae8479941108e4edff4.data.unityweb",
+      "bytes": 25856476
+    },
+    {
+      "path": "Build/660d7d8f5015cf4fcb2913afc832245f.wasm.unityweb",
+      "bytes": 9140893
+    },
+    {
+      "path": "Build/cd9eb481c50ff5d9dacfc662dd6f7af0.loader.js",
+      "bytes": 118567
+    },
+    {
+      "path": "Build/9f8a70a14b73ccad5479a81fbeaba821.framework.js.unityweb",
+      "bytes": 77205
+    },
+    {
+      "path": "index.html",
+      "bytes": 5448
+    },
+    {
+      "path": "StreamingAssets/UnityServicesProjectConfiguration.json",
+      "bytes": 2443
+    },
+    {
+      "path": "version.json",
+      "bytes": 99
+    },
+    {
+      "path": ".nojekyll",
+      "bytes": 0
+    }
+  ],
+  "deploymentTarget": "github-pages-development-review",
+  "releaseId": "farming-development-20260924-015424Z",
+  "sourceCommit": "276c3d59b911df8cc9e7a03888772adddfdfad6c",
+  "sourceWorkspaceState": "uncommitted-farming-review",
+  "publishedAtUtc": "2026-09-24T02:02:15Z",
+  "hostTotalLimitBytes": 1073741824
+}
