@@ -1,9 +1,9 @@
 {
   "environment": "development",
-  "version": "farming-development-20260924-063134Z",
-  "releaseId": "farming-development-20260924-063134Z",
+  "version": "mastery-development-20260925-073046Z",
+  "releaseId": "mastery-development-20260925-073046Z",
   "unity": "6000.6.0f1",
-  "path": "development/releases/farming-development-20260924-063134Z/",
+  "path": "development/releases/mastery-development-20260925-073046Z/",
   "review": true,
   "indexed": false
 }
