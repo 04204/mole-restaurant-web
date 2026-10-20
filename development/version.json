@@ -1,9 +1,12 @@
 {
+  "BBaseCheckpoint": "7db4661682258536a76d9c7dd1dd33554c33f4e8",
+  "adapterSha256": "1a9d93d5ccc6ba999d87a440372fec5b654ea4d8a149ba962a2a16ec7e72fc59",
   "environment": "development",
-  "version": "mastery-development-20260925-073046Z",
-  "releaseId": "mastery-development-20260925-073046Z",
-  "unity": "6000.6.0f1",
-  "path": "development/releases/mastery-development-20260925-073046Z/",
+  "indexed": false,
+  "path": "development/releases/interior-catalog-b-development-20261020-123349Z/",
+  "releaseId": "interior-catalog-b-development-20261020-123349Z",
   "review": true,
-  "indexed": false
+  "sourceCommit": "7db4661682258536a76d9c7dd1dd33554c33f4e8",
+  "unity": "6000.6.0f1",
+  "version": "interior-catalog-b-development-20261020-123349Z"
 }
