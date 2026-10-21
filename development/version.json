@@ -1,12 +1,19 @@
 {
   "BBaseCheckpoint": "7db4661682258536a76d9c7dd1dd33554c33f4e8",
-  "adapterSha256": "1a9d93d5ccc6ba999d87a440372fec5b654ea4d8a149ba962a2a16ec7e72fc59",
+  "adapterFiles": {
+    "Assets/Game/Editor/WebRelease.cs": "159a54f02b5057ed4d037536cd81ce1943cd542ac4eb2328f0faaea96d4580ea",
+    "Tools/Build-InteriorCatalogBRecoveryWeb.ps1": "5f6fd4cd6f4eef1b467c5c1cd5a64d5e76d3403d6af0998d34b13bbd82d0cade",
+    "Tools/Deploy-InteriorCatalogBRecoveryWeb.ps1": "8caf60c2ea824e57fbd9904defd34f8b6df2619a5184e283db0cf9153b489dc8",
+    "Tools/InteriorCatalogBRecoveryWebGL.py": "eb711c4f482d0869b2d35da813ff02875dd518d964f3ee1fa8f19233c8ab98eb"
+  },
+  "adapterSha256": "fdef7177a3541d21ce632495b7eea4df403a7aaa6e3a5fd4ac22381cd775099d",
   "environment": "development",
   "indexed": false,
-  "path": "development/releases/interior-catalog-b-development-20261020-123349Z/",
-  "releaseId": "interior-catalog-b-development-20261020-123349Z",
+  "path": "development/releases/interior-catalog-b-recovery-development-20261021-001949Z/",
+  "recoveryAuthorization": "0953b481b1d060ab29efbd1b9c289396c4d2fb10",
+  "releaseId": "interior-catalog-b-recovery-development-20261021-001949Z",
   "review": true,
-  "sourceCommit": "7db4661682258536a76d9c7dd1dd33554c33f4e8",
+  "sourceCommit": "964b0e04c6b3f5fbe820c80664b3a44f75c9b580",
   "unity": "6000.6.0f1",
-  "version": "interior-catalog-b-development-20261020-123349Z"
+  "version": "interior-catalog-b-recovery-development-20261021-001949Z"
 }

@@ -1,0 +1,69 @@
+{
+  "BBaseCheckpoint": "7db4661682258536a76d9c7dd1dd33554c33f4e8",
+  "adapterFiles": {
+    "Assets/Game/Editor/WebRelease.cs": "159a54f02b5057ed4d037536cd81ce1943cd542ac4eb2328f0faaea96d4580ea",
+    "Tools/Build-InteriorCatalogBRecoveryWeb.ps1": "5f6fd4cd6f4eef1b467c5c1cd5a64d5e76d3403d6af0998d34b13bbd82d0cade",
+    "Tools/Deploy-InteriorCatalogBRecoveryWeb.ps1": "8caf60c2ea824e57fbd9904defd34f8b6df2619a5184e283db0cf9153b489dc8",
+    "Tools/InteriorCatalogBRecoveryWebGL.py": "eb711c4f482d0869b2d35da813ff02875dd518d964f3ee1fa8f19233c8ab98eb"
+  },
+  "adapterSha256": "fdef7177a3541d21ce632495b7eea4df403a7aaa6e3a5fd4ac22381cd775099d",
+  "artifacts": [
+    {
+      "bytes": 77219,
+      "path": "Build/3df1802c18fbe25104c04e0abd05291c.framework.js.unityweb",
+      "sha256": "4e73c22742bf72ce3b5925bbf60a442bae015a1b3eb0047feac6893a4c2b5e0f"
+    },
+    {
+      "bytes": 118567,
+      "path": "Build/8fccc16cbbce1b521099c7ee198cd013.loader.js",
+      "sha256": "c93b1db36b178103bedf60448a6deba2c61be1c7f6645d4748bc331103e65e20"
+    },
+    {
+      "bytes": 9196827,
+      "path": "Build/aa32882089350c0aabfa5554ef8881ba.wasm.unityweb",
+      "sha256": "407296904d5c8ddac50b8d665487aa472c344f75f29daf398d09cfdaecab3b76"
+    },
+    {
+      "bytes": 35159941,
+      "path": "Build/d351871867663ddc802e639b8c85b70f.data.unityweb",
+      "sha256": "905777cfe9aace4f564e209b773d9b9c5d2c8e9105bf783beceb0f98e433364f"
+    },
+    {
+      "bytes": 5695,
+      "path": "index.html",
+      "sha256": "8b9c9e5847b544a60eb5c71af9d75c8f0e35d090c1ea21874cf48f918d4ab7b9"
+    },
+    {
+      "bytes": 2354,
+      "path": "StreamingAssets/UnityServicesProjectConfiguration.json",
+      "sha256": "4662169ebbe68798f08690724ea65341852a554fdc993ef4cac266be697dfaba"
+    },
+    {
+      "bytes": 998,
+      "path": "version.json",
+      "sha256": "a5224d70dc874a3bf344a7d5fa39b1493ba0461ee5c82f6902745419e5034f08"
+    }
+  ],
+  "buildInputsSha256": "05f408c0a80293ee3f6d12363cb760efa49e043b3db2c5a35ae8e9d837ac0375",
+  "buildReportBytes": 44560258,
+  "compression": "brotli",
+  "decompressionFallback": true,
+  "deploymentTarget": "github-pages-development-review",
+  "effectiveDefines": [
+    "MOLE_DEVELOPMENT_REVIEW"
+  ],
+  "environment": "development",
+  "hashedFilenames": true,
+  "hostPerFileLimitBytes": 104857600,
+  "hostTotalLimitBytes": 1073741824,
+  "hostingTarget": "github-pages",
+  "recoveryAuthorization": "0953b481b1d060ab29efbd1b9c289396c4d2fb10",
+  "releaseId": "interior-catalog-b-recovery-development-20261021-001949Z",
+  "schemaVersion": 1,
+  "sourceCommit": "964b0e04c6b3f5fbe820c80664b3a44f75c9b580",
+  "sourceWorkspaceState": "committed-recovery;owner-edits-excluded",
+  "ugsEnvironmentId": "cab92d79-301e-498b-94b7-4fbf82889e63",
+  "ugsProjectId": "b05b695d-9793-47a6-9cbc-e8714e63db7e",
+  "unityVersion": "6000.6.0f1",
+  "version": "interior-catalog-b-recovery-development-20261021-001949Z"
+}
