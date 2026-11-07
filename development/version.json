@@ -1,24 +1,24 @@
 {
-  "backendSha256": "14270932a6349bca88c35e0a5a84082c1fa2f82b8fe5a481718b4dd024da6511",
-  "backendVersion": 2,
+  "backendSha256": "efe1a1857fbfd271aafe02b045c6e073b634e801d99629de0d4b535ff6d15ba3",
+  "backendVersion": 3,
   "dataKey": "mole_first_release_qa_v1",
   "economicRulesVersion": "restaurant-lahm-care-2026-v1",
   "effectiveDefines": [
-    "MOLE_FIRST_RELEASE_QA",
-    "MOLE_DEVELOPMENT_REVIEW"
+    "MOLE_DEVELOPMENT_REVIEW",
+    "MOLE_FIRST_RELEASE_QA"
   ],
   "endpoint": "MoleSessionFirstReleaseQA",
   "environment": "development",
   "gameplayBase": "956d2e23d2ed674fa1015d0622186c2465a6f2c3",
   "indexed": false,
-  "path": "development/releases/first-release-qa-development-20261029-091325Z/",
+  "path": "development/releases/first-release-qa-development-20261107-030248Z/",
   "qaActivityEnd": "2026-11-05T16:00:00Z",
   "qaActivityStart": "2026-10-28T16:00:00Z",
-  "releaseId": "first-release-qa-development-20261029-091325Z",
+  "releaseId": "first-release-qa-development-20261107-030248Z",
   "schema": 8,
-  "sourceCommit": "0aad7cb386a7fc67963f3569161d7edcd32e3d08",
+  "sourceCommit": "9d9e072dbf9ff8cd9ef79979dce067cf92093e93",
   "ugsEnvironmentId": "cab92d79-301e-498b-94b7-4fbf82889e63",
   "ugsProjectId": "b05b695d-9793-47a6-9cbc-e8714e63db7e",
   "unity": "6000.6.0f1",
-  "version": "first-release-qa-development-20261029-091325Z"
+  "version": "first-release-qa-development-20261107-030248Z"
 }
