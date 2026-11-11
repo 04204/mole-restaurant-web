@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no">
-  <meta name="robots" content="noindex,nofollow,noarchive"><script>(()=>{const d={"path":"Build/9d0ee34b3119c8c1706dc876b385a799.data.unityweb","bytes":56231450,"sha256":"fe88a44492690bf4bc85ece35256b9343b553bd3ba7627dc848be72323c06ebf","parts":[{"path":"Build/9d0ee34b3119c8c1706dc876b385a799.data.part00","bytes":33554432,"sha256":"f7220072c5e60c9b931a7936273683180045f2cb8e63bf7b270c832e86ed94a2"},{"path":"Build/9d0ee34b3119c8c1706dc876b385a799.data.part01","bytes":22677018,"sha256":"89ad39a7fd7cac60b214a92e659dfc11b16cef57a5aea7add1a5c05fe2db3968"}]};const original=window.fetch.bind(window);const target=new URL(d.path,document.baseURI);
+  <meta name="robots" content="noindex,nofollow,noarchive"><script>(()=>{const d={"path":"Build/2e1109555b52d516248ef7b01a8fdd6f.data.unityweb","bytes":62047994,"sha256":"82a383ef0fa490f6c71900c3e970e796809b321f82db3d11393112ac1a076456","parts":[{"path":"Build/2e1109555b52d516248ef7b01a8fdd6f.data.part00","bytes":33554432,"sha256":"b6a2c47d27514e4636b35f143de27e43d389fbb484db86810843d806ca61da05"},{"path":"Build/2e1109555b52d516248ef7b01a8fdd6f.data.part01","bytes":28493562,"sha256":"ae1e4236d8642db19fbf594b1d2b1acb35accf5abab004d91a36727d5e380e5d"}]};const original=window.fetch.bind(window);const target=new URL(d.path,document.baseURI);
  const digest=async b=>Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',b))).map(x=>x.toString(16).padStart(2,'0')).join('');
  window.fetch=async(input,init)=>{const u=new URL(typeof input==='string'?input:input.url,document.baseURI);if(u.origin!==target.origin||u.pathname!==target.pathname)return original(input,init);
  const chunks=await Promise.all(d.parts.map(async p=>{const url=new URL(p.path,document.baseURI);url.search=u.search;const r=await original(url.href,init);if(!r.ok)throw Error('Unity data part HTTP '+r.status);const b=await r.arrayBuffer();if(b.byteLength!==p.bytes||await digest(b)!==p.sha256)throw Error('Unity data part integrity');return new Uint8Array(b);}));
@@ -11,14 +11,16 @@
  window.__moleQaDataTransport={verified:true,bytes:at,sha256:d.sha256,parts:chunks.length};const response=new Response(bytes,{status:200,headers:{'Content-Type':'application/octet-stream','Content-Length':String(at)}});Object.defineProperty(response,'url',{value:u.href});return response;};})();</script><meta name="color-scheme" content="dark">
   <title>摩摩餐廳 · 開發審查版</title>
   <style>
-    :root{color-scheme:dark;font-family:"Microsoft JhengHei","Noto Sans TC",sans-serif;background:#24160f;color:#ffe9b8}
-    *{box-sizing:border-box}html,body{width:100%;height:100%;margin:0;overflow:hidden;background:radial-gradient(circle at 50% 15%,#59351c,#21130d 65%)}
-    body{display:grid;grid-template-rows:38px minmax(0,1fr)}
-    #release-bar{display:flex;align-items:center;justify-content:center;gap:12px;padding:7px 16px;background:#140c08;border-bottom:1px solid #8d552b;font-size:14px;letter-spacing:.04em}
+    :root{color-scheme:dark;font-family:"Microsoft JhengHei","Noto Sans TC",sans-serif;background:#8cbde8;color:#ffe9b8}
+    *{box-sizing:border-box}html,body{width:100%;height:100%;margin:0;overflow:hidden;background:#8cbde8}
+    body{display:grid;grid-template-rows:minmax(0,1fr);user-select:none}
+    #release-bar{position:fixed;left:6px;bottom:6px;z-index:5;max-width:45vw;font-size:11px;letter-spacing:.02em}
+    #release-bar summary{cursor:pointer;width:max-content;list-style:none;opacity:.8}
+    #release-bar[open] summary{opacity:1}#release-bar .release-details{margin-top:5px;padding:8px;background:#263b4deb;border-radius:5px;overflow-wrap:anywhere}
     #release-badge{padding:2px 9px;border-radius:999px;background:#8e4b20;color:#fff4d4;font-weight:700}.production #release-badge{background:#2e7047}
-    #unity-area{min-height:0;display:grid;place-items:center;padding:8px}
-    #unity-shell{position:relative;width:min(100%,calc((100vh - 54px)*16/9));max-height:100%;aspect-ratio:16/9;background:#120b08;box-shadow:0 8px 34px #000a}
-    #unity-canvas{display:block;width:100%;height:100%;background:#24160f;outline:none}
+    #unity-area{min-height:0;display:grid;place-items:center;padding:0}
+    #unity-shell{position:relative;width:min(100%,calc(100vh*16/9));max-height:100%;aspect-ratio:16/9;background:#8cbde8}
+    #unity-canvas{display:block;width:100%;height:100%;background:#8cbde8;outline:none}
     #loading{position:absolute;inset:0;display:grid;place-content:center;gap:14px;text-align:center;background:#20130ef2;z-index:2}
     #loading[hidden]{display:none}#progress-track{width:min(360px,70vw);height:12px;border:1px solid #a96b35;border-radius:10px;overflow:hidden;background:#0e0906}
     #progress{height:100%;width:0;background:linear-gradient(90deg,#d4772d,#ffd36a);transition:width .15s}
@@ -27,15 +29,14 @@
     #fullscreen{position:absolute;right:10px;bottom:10px;z-index:3;border:1px solid #b9773e;border-radius:6px;background:#2c190fdd;color:#ffe6b0;padding:7px 10px;cursor:pointer}
     @media (max-width:800px){#release-bar{font-size:12px}#unity-area{padding:0}#unity-shell{width:100%;max-height:100%}}
     @media (max-width:620px){
-      body.development{grid-template-rows:auto minmax(0,1fr)}
-      .development #release-bar{min-height:38px;flex-wrap:wrap;gap:4px 10px;padding:5px 8px;font-size:11px}
+      .development #release-bar{font-size:10px;max-width:55vw}
       .development #unity-area{grid-template-rows:minmax(0,1fr);grid-template-columns:minmax(0,1fr)}
       .development #unity-shell{width:100%;height:100%;aspect-ratio:auto;min-height:0;max-height:100%}
     }
   </style>
 </head>
 <body class="development">
-  <header id="release-bar"><span id="release-badge">開發審查版</span><span>UGS development</span><span>first-release-qa-development-20261029-091325Z</span></header>
+  <details id="release-bar"><summary><span id="release-badge">開發審查版 · 版本</span></summary><div class="release-details"><div>UGS development</div><div>first-release-qa-development-20261111-040528Z</div></div></details>
   <main id="unity-area">
     <section id="unity-shell">
       <canvas id="unity-canvas" width="960" height="600" tabindex="0" aria-label="摩摩餐廳遊戲"></canvas>
@@ -46,14 +47,14 @@
   </main>
   <script>
     const canvas=document.querySelector("#unity-canvas"),loading=document.querySelector("#loading"),progress=document.querySelector("#progress");
-    window.__moleBuild={environment:"development",version:"first-release-qa-development-20261029-091325Z"};window.__moleErrors=[];
+    window.__moleBuild={environment:"development",version:"first-release-qa-development-20261111-040528Z"};window.__moleErrors=[];
     function unityShowBanner(message,type){const host=document.querySelector("#unity-warning"),item=document.createElement("div");item.textContent=message;host.appendChild(item);if(type!=="error")setTimeout(()=>item.remove(),5000);if(type==="error")window.__moleErrors.push(String(message));}
     const buildUrl="Build",config={
-      dataUrl:buildUrl+"/9d0ee34b3119c8c1706dc876b385a799.data.unityweb?review=first-release-qa-development-20261029-091325Z",frameworkUrl:buildUrl+"/15d89105aba531a7b0013a7e0bbd2a07.framework.js.unityweb?review=first-release-qa-development-20261029-091325Z",codeUrl:buildUrl+"/343b5fdfcf35bf584b640072b3a5bd70.wasm.unityweb?review=first-release-qa-development-20261029-091325Z",
+      dataUrl:buildUrl+"/2e1109555b52d516248ef7b01a8fdd6f.data.unityweb?review=first-release-qa-development-20261111-040528Z",frameworkUrl:buildUrl+"/2661b3e9e6fac8eb990639d21f322e0d.framework.js.unityweb?review=first-release-qa-development-20261111-040528Z",codeUrl:buildUrl+"/05cff76c315f8a2bf77372dcf93210c6.wasm.unityweb?review=first-release-qa-development-20261111-040528Z",
       streamingAssetsUrl:"StreamingAssets",companyName:"DefaultCompany",productName:"MoleRestaurant",
       productVersion:"1.0",showBanner:unityShowBanner,matchWebGLToCanvasSize:true
     };
-    const loader=document.createElement("script");loader.src=buildUrl+"/10be73d1dcf0f22350ed11daaf4adb81.loader.js?review=first-release-qa-development-20261029-091325Z";
+    const loader=document.createElement("script");loader.src=buildUrl+"/5941a13c0614b1225537c7fcbd3e7fce.loader.js?review=first-release-qa-development-20261111-040528Z";
     loader.onload=()=>createUnityInstance(canvas,config,value=>progress.style.width=`${Math.round(value*100)}%`).then(instance=>{
       window.__moleUnity=instance;window.__moleUnityReady=true;loading.hidden=true;canvas.focus();
       document.querySelector("#fullscreen").onclick=()=>instance.SetFullscreen(1);
@@ -62,5 +63,5 @@
     loader.onerror=()=>unityShowBanner("無法載入遊戲啟動程式。請重新整理或稍後再試。","error");document.body.appendChild(loader);
     document.addEventListener("visibilitychange",()=>window.__moleUnity?.SendMessage("GameSession","BrowserVisibilityChanged",document.visibilityState));
   </script>
-<aside style="position:fixed;bottom:0;left:0;font:10px sans-serif;color:#ddd;background:#222;pointer-events:none">development · MoleSessionFirstReleaseQA · 0aad7cb3 · Backend 14270932a634 · 測試活動時間</aside></body>
+<aside style="position:fixed;bottom:0;left:0;font:10px sans-serif;color:#ddd;background:#222;pointer-events:none">development · MoleSessionFirstReleaseQA · 4e85742c · Backend 96bb29d12b73 · 測試活動時間</aside></body>
 </html>
