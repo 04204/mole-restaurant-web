@@ -1,0 +1,88 @@
+{
+  "artifacts": [
+    {
+      "bytes": 118567,
+      "path": "Build/4f0b04775684387042d9bb4be38743c5.loader.js",
+      "sha256": "2b3f0f970a734ff8863233994674ad7cc829540bee5eb38e9372627c72e475c2"
+    },
+    {
+      "bytes": 77315,
+      "path": "Build/86a20027aeace46ec9ee8bc5a1b474d1.framework.js.unityweb",
+      "sha256": "a51d45efe55193813e7352bb64fadf9f23d2905c583b8ff23dcf05b17cc5a1d2"
+    },
+    {
+      "bytes": 9352257,
+      "path": "Build/aac68837887f1ff0f2959ece47ad30d3.wasm.unityweb",
+      "sha256": "4f63b5fdbf3bc6e1c16bc767b1b5b1391315ad1b5f8cd10222f75bc20e9d8e2c"
+    },
+    {
+      "bytes": 33554432,
+      "path": "Build/d16ed284e0bb56d09717a383f2fae6c5.data.part00",
+      "sha256": "2b733e9aa15a151bd643cd9deba2343883b7e9ace428d8229030046cb4078aa7"
+    },
+    {
+      "bytes": 28613509,
+      "path": "Build/d16ed284e0bb56d09717a383f2fae6c5.data.part01",
+      "sha256": "81ce24167a69969dadde716983c48dca17cb46f11564336827a905645643f244"
+    },
+    {
+      "bytes": 7687,
+      "path": "index.html",
+      "sha256": "3fc809b5cdb2fa5366752b872b65b132f7fd527ea704cf1b182bf6a78fca5f0c"
+    },
+    {
+      "bytes": 2354,
+      "path": "StreamingAssets/UnityServicesProjectConfiguration.json",
+      "sha256": "4662169ebbe68798f08690724ea65341852a554fdc993ef4cac266be697dfaba"
+    },
+    {
+      "bytes": 893,
+      "path": "version.json",
+      "sha256": "9c16f6aa9610257dd1c879c9e8103820aa9c1add94326259166630849dada499"
+    }
+  ],
+  "backendSha256": "96bb29d12b7398e5153e8ee71f0d58ac193b78eda1f39774a5fd983fe3986c17",
+  "backendVersion": 4,
+  "buildReportBytes": 71723779,
+  "compression": "brotli",
+  "dataKey": "mole_first_release_qa_v1",
+  "dataTransport": {
+    "bytes": 62167941,
+    "parts": [
+      {
+        "bytes": 33554432,
+        "path": "Build/d16ed284e0bb56d09717a383f2fae6c5.data.part00",
+        "sha256": "2b733e9aa15a151bd643cd9deba2343883b7e9ace428d8229030046cb4078aa7"
+      },
+      {
+        "bytes": 28613509,
+        "path": "Build/d16ed284e0bb56d09717a383f2fae6c5.data.part01",
+        "sha256": "81ce24167a69969dadde716983c48dca17cb46f11564336827a905645643f244"
+      }
+    ],
+    "path": "Build/d16ed284e0bb56d09717a383f2fae6c5.data.unityweb",
+    "sha256": "a45fc7311ccdaf29812263631961ca83cc2536ca60bd636af48c6d956b650def"
+  },
+  "decompressionFallback": true,
+  "economicRulesVersion": "restaurant-lahm-care-2026-v1",
+  "effectiveDefines": [
+    "MOLE_DEVELOPMENT_REVIEW",
+    "MOLE_FIRST_RELEASE_QA"
+  ],
+  "endpoint": "MoleSessionFirstReleaseQA",
+  "environment": "development",
+  "gameplayBase": "956d2e23d2ed674fa1015d0622186c2465a6f2c3",
+  "hashedFilenames": true,
+  "hostPerFileLimitBytes": 104857600,
+  "hostTotalLimitBytes": 1073741824,
+  "hostingTarget": "github-pages",
+  "qaActivityEnd": "2026-11-05T16:00:00Z",
+  "qaActivityStart": "2026-10-28T16:00:00Z",
+  "schema": 8,
+  "schemaVersion": 1,
+  "sourceCommit": "11eb18219871ecc10c0f67cc916ab2efa4a50db4",
+  "ugsEnvironmentId": "cab92d79-301e-498b-94b7-4fbf82889e63",
+  "ugsProjectId": "b05b695d-9793-47a6-9cbc-e8714e63db7e",
+  "unityVersion": "6000.6.0f1",
+  "version": "first-release-qa-development-20261112-133941Z"
+}
