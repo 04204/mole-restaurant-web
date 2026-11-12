@@ -11,14 +11,14 @@
   "environment": "development",
   "gameplayBase": "956d2e23d2ed674fa1015d0622186c2465a6f2c3",
   "indexed": false,
-  "path": "development/releases/first-release-qa-development-20261111-104523Z/",
+  "path": "development/releases/first-release-qa-development-20261112-133941Z/",
   "qaActivityEnd": "2026-11-05T16:00:00Z",
   "qaActivityStart": "2026-10-28T16:00:00Z",
-  "releaseId": "first-release-qa-development-20261111-104523Z",
+  "releaseId": "first-release-qa-development-20261112-133941Z",
   "schema": 8,
-  "sourceCommit": "38e3d231aa273a42ba5178e5abd96cf686dd4e1b",
+  "sourceCommit": "11eb18219871ecc10c0f67cc916ab2efa4a50db4",
   "ugsEnvironmentId": "cab92d79-301e-498b-94b7-4fbf82889e63",
   "ugsProjectId": "b05b695d-9793-47a6-9cbc-e8714e63db7e",
   "unity": "6000.6.0f1",
-  "version": "first-release-qa-development-20261111-104523Z"
+  "version": "first-release-qa-development-20261112-133941Z"
 }
